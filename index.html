@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeeGee</title>
+    <link rel="stylesheet" href="bg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+         :root {
+    --swiper-theme-color: #fcc61b;
+  } 
+    </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <img src="bg2.png" style="height: 40px;width: 
+        40px;float: left;background-color:black;border-radius:50%;margin-top: 15px;margin-left: 15px;" class="active">
+         <a href="#news">Our Team</a>
+         <a href="#contact">Pricing</a>
+         <a href="#about">Training</a>
+         <a href="#about">Testimonials</a>
+         <a href="#about">About</a>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-bars"></i>
+         </a>
+       </div>
+       
+       <script>
+       function myFunction() {
+         var x = document.getElementById("myTopnav");
+         if (x.className === "topnav") {
+           x.className += " responsive";
+         } else {
+           x.className = "topnav";
+         }
+       }
+       </script>
+       <div class="studio">
+           <p class="sttxt">BeeGee<span><img class="stimg" src="bgfooter.png"></span>Studios</p>
+           <p class="sttxt1">Adorning Endeavours</p>
+       </div>
+
+       <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://i.pinimg.com/originals/10/10/e8/1010e8923de1918ed49304462b5b41b3.jpg"></div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          cssMode: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination'
+          },
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script>
+
+      <div class="about">
+          <p class="abtxt">About <span style="color: #fcc61b;">BeeGee</span></p>
+          <p class="abtxt1">We are all engineers by profession and designers by passion. We are a team which aims to learn new things and bring changes around us. We all try to forge a connection, seek to inspire trust, and express our values in any way we can. Our team is a group of designers that comes together to learn, teach and grow and provide fruitful services.</p>
+      </div>
+
+      <div class="provider">
+          <p class="protxt">BeeGee <span style="color: white;">Provides</span></p>
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-4" style="padding: 20px;">
+                    <p class="gd">Graphic <span style="color: #fcc61b;">Designing</span></p>
+                    <img src="https://wallpaperaccess.com/full/1091550.jpg" class="proimg">
+                    <p class="undertxt">We are all engineers by profession</p>
+                  </div>
+                  <div class="col-xl-4" style="padding: 20px;">
+                    <p class="gd">Web <span style="color: #fcc61b;">Designing</span></p>
+                    <img src="https://wallpaperaccess.com/full/1091550.jpg" class="proimg">
+                    <p class="undertxt">We are all engineers by profession</p>
+                </div>
+                <div class="col-xl-4" style="padding: 20px;">
+                    <p class="gd">Digital <span style="color: #fcc61b;">Marketing</span></p>
+                    <img src="https://wallpaperaccess.com/full/1091550.jpg" class="proimg">
+                    <p class="undertxt">We are all engineers by profession</p>
+                </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6">
+                      <p class="gd1">Video <span style="color: #fcc61b;">Editing</span></p>
+                      <img src="https://wallpaperaccess.com/full/1091550.jpg" class="proimg1">
+                      <p class="undertxt1">We are all engineers by profession</p>
+                  </div>
+                  <div class="col-xl-6">
+                    <p class="gd2">Content <span style="color: #fcc61b;">Writing</span></p>
+                    <img src="https://wallpaperaccess.com/full/1091550.jpg" class="proimg2">
+                    <p class="undertxt2">We are all engineers by profession</p>
+                </div>
+              </div>
+          </div>
+          <div class="bt">
+          <a href="#" class="button">Download Portfolio</a>
+          <a href="#" class="button">Download Brochure</a>
+      </div>
+    </div>
+</body>
+</html>
