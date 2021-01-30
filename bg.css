@@ -320,3 +320,20 @@ body {
   {
       color: #333333;
   }
+  @media screen and (max-width: 400px){
+    .proimg
+    {
+        height: 150px;
+        width: 300px;
+    }
+    .proimg1
+    {
+        height: 150px;
+        width: 300px;
+    }
+    .proimg2
+    {
+        height: 150px;
+        width: 300px;
+    }
+}
