@@ -678,3 +678,114 @@ body {
           width: 250px;
       }
 }
+.training
+{
+    margin-top: 40px;
+    background-color: #1b1b1b;
+}
+.traintxt
+{
+    font-size: 50px;
+    font-family: 'Source Sans Pro';
+    color: #fcc61b;
+    text-align: center;
+    padding: 20px;
+}
+.traintxt2
+{
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.trainimg
+{
+    width: 1231px;
+    height: 592px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.traintxt3
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    color: white;
+    padding: 10px;
+}
+@media screen and (max-width:1030px)
+{
+    .trainimg
+    {
+        width: 900px;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .trainimg
+    {
+        width: 650px;
+        height: 450px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .trainimg
+    {
+        width: 500px;
+        height: 380px;
+    }
+}
+@media screen and (max-width:500px)
+{
+    .trainimg
+    {
+        width: 380px;
+        height: 280px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .trainimg
+    {
+        width: 320px;
+        height: 190px;
+    }
+}
+.events
+{
+    font-size: 50px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    color: #fcc61b;
+    padding: 5px;
+}
+.csoon
+{
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.pricetxt
+{
+    color: #fcc61b;
+    font-size: 50px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.pricetxt1
+{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+}
