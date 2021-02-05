@@ -820,16 +820,17 @@ body {
     font-size: 25px;
     font-weight: 700;
     padding: 40px;
-    font-family: 'Source Sans Pro';
+    font-family: 'Gilroy-ExtraBold';
 }
 .cost
 {
     font-size: 80px;
     line-height: 60px;
+    font-family: 'Gilroy-ExtraBold';
 }
 .inr
 {
-    font-family: 'Source Sans Pro';
+    font-family: 'Gilroy-Light';
     font-size: 25px;
     line-height: 0.5px;
 }
@@ -871,7 +872,7 @@ body {
   {
       font-size: 70px;
       font-weight: 1000;
-      font-family: 'Source Sans Pro';
+      font-family: 'Gilroy-ExtraBold';
       line-height: 70px;
   }
   .post
@@ -879,7 +880,7 @@ body {
       line-height: 0.5px;
       font-size: 30px;
       font-weight: 10;
-      font-family: 'Source Sans Pro';
+      font-family: 'Gilroy-Light';
       margin-bottom: 20px;
   }
   .free
@@ -887,7 +888,7 @@ body {
       margin-top: 60px;
       font-size: 30px;
       font-weight: 10;
-      font-family: 'Source Sans Pro';
+      font-family: 'Gilroy-Light';
       line-height: 0.1px;
   }
 .revision
@@ -898,7 +899,7 @@ body {
     margin-top: 0px;
     font-size: 20px;
     font-weight: 10;
-    font-family: 'Source Sans Pro';
+    font-family: 'Gilroy-Light';
 }  
 @media screen and (max-width:365px)
 {
@@ -914,3 +915,13 @@ body {
         margin-bottom: 50px;
     }
 }
+@font-face
+  {
+    font-family: Gilroy-ExtraBold;
+    src: url('Gilroy-ExtraBold.otf');
+  }
+  @font-face
+  {
+    font-family: Gilroy-Light;
+    src: url('Gilroy-Light.otf');
+  }
