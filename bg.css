@@ -793,3 +793,124 @@ body {
 {
     text-align: center;
 }
+.card {
+    transition: 0.3s;
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 100px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container2 {
+    padding: 2px 16px;
+    background: #f4f4f4;
+  }
+  .container1 {
+    padding: 2px 16px;
+    background: #fcc61b;
+  }
+.heading
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 40px;
+    font-family: 'Source Sans Pro';
+}
+.cost
+{
+    font-size: 80px;
+    line-height: 60px;
+}
+.inr
+{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    line-height: 0.5px;
+}
+.butto 
+{
+    background-color: #fcc61b;
+    border: none;
+    color: white;
+    font-weight: 500px;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    border-radius: 10px;
+  }
+  .butto1 
+{
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: 500px;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    border-radius: 10px;
+  }
+  .numb
+  {
+      font-size: 70px;
+      font-weight: 1000;
+      font-family: 'Source Sans Pro';
+      line-height: 70px;
+  }
+  .post
+  {
+      line-height: 0.5px;
+      font-size: 30px;
+      font-weight: 10;
+      font-family: 'Source Sans Pro';
+      margin-bottom: 20px;
+  }
+  .free
+  {
+      margin-top: 60px;
+      font-size: 30px;
+      font-weight: 10;
+      font-family: 'Source Sans Pro';
+      line-height: 0.1px;
+  }
+.revision
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 10;
+    font-family: 'Source Sans Pro';
+}  
+@media screen and (max-width:365px)
+{
+    .free
+    {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:500px)
+{
+    .card
+    {
+        margin-bottom: 50px;
+    }
+}
