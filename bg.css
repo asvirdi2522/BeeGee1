@@ -946,6 +946,8 @@ body {
       font-family: 'Source Sans Pro';
       border-radius: 30px;
       font-weight: 600;
+      outline: none;
+      border: none;
     }  
     .addon
     {
@@ -1011,4 +1013,3 @@ body {
         margin-right: 10px;
     }
 }
-

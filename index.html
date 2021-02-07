@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="bg.css">
     <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -215,7 +216,7 @@
         </div>
       </div>
     </div>
-    <button class="butt2" onclick="myFunction()">Show Add-ons</button>
+    <button class="butt2" onclick="myFunction();f()"><span><img src="cross.png" id="rot" style="height: 20px;width: 20px;margin-bottom: 2px;margin-right:2px;transform: rotate(0deg);transition: ease.5sec;"></span>Show Add-ons</button>
     <div class="addon" id="add1">
       <p class="addtxt">BeeGee <span style="color: white;">Add-ons</span></p>
       <h2 class="smc">Social Media Covers</h2>
@@ -252,6 +253,16 @@
           x.style.display = "none";
         } else {
           x.style.display = "block";
+        }
+      }
+      function f() {
+        var y = document.getElementById("rot");
+        if (y.style.transform === "rotate(0deg)") {
+          y.style.transform = "rotate(45deg)";
+          y.style.transition = "0.5s";
+        } else {
+          y.style.transform = "rotate(0deg)";
+          y.style.transition = "0.5s";
         }
       }
       </script>
