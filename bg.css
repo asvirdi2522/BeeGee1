@@ -316,6 +316,7 @@ body {
     text-align: center;
     font-family: 'Source Sans Pro';
     border-radius: 10px;
+    outline: none;
   }
   .bt
   {
@@ -1077,3 +1078,7 @@ body {
   button:hover, a:hover {
     opacity: 0.9;
   }
+ 
+ button:focus {
+    outline: 0 !important;
+}
