@@ -193,6 +193,12 @@ body {
         width: 350px;
     }
 }
+@media screen and (max-width: 450px){
+    .swiper-container
+    {
+        height: 20%;
+    }
+}
 .gd
 {
     font-size: 30px;
