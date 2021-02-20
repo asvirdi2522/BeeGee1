@@ -714,7 +714,7 @@ body {
 .trainimg
 {
     width: 1231px;
-    height: 592px;
+    height: 692.4375px;
     padding: 10px;
     display: block;
     margin-left: auto;
@@ -1038,29 +1038,30 @@ body {
     border-radius: 100%;
     height: 200px;
     width: 200px;
-    padding: 10px;
+    border-width: 5px;
+    border: #fcc61b solid;
 }
 .teamname
 {
     text-align: center;
-    color: black;
+    color: #fcc61b;
 }
 .card7 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);*/
     max-width: 450px;
     margin: auto;
     text-align: center;
-    background-color: #fcc61b;
+    /*background-color: #fcc61b;*/
     border-radius: 10px;
     transition: 0.3s;
     margin-bottom: 55px;
   }
 
-  .card7:hover
+  /*.card7:hover
   {
     box-shadow: 0 15px 26px 0 rgba(0,0,0,1);   
     max-width: 440px;
-  }
+  }*/
   @media screen and (max-width: 1030px)
   {
       .card7
@@ -1074,7 +1075,7 @@ body {
       }
   }
   .title {
-    color: black;
+    color: #fcc61b;
     font-size: 18px;
   }
 
@@ -1082,6 +1083,7 @@ body {
   {
       height: 35px;
       width: 35px;
+      background-color: #fcc61b;
       margin-bottom: 15px;
   }
   .teammedia:hover
