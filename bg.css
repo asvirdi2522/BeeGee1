@@ -75,6 +75,7 @@ body {
       text-align: center;
       font-family: 'Source Sans Pro';
       font-size: 25px;
+      margin-top: -32px;
       padding-bottom: 20px;
   }
   .studio
@@ -1045,12 +1046,14 @@ body {
     height: 200px;
     width: 200px;
     border-width: 5px;
-    border: #fcc61b solid;
+    border-style: solid;
+    border-color: #fcc61b;
 }
 .teamname
 {
     text-align: center;
     color: #fcc61b;
+    margin-top: 10px;
 }
 .card7 {
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);*/
@@ -1083,6 +1086,7 @@ body {
   .title {
     color: #fcc61b;
     font-size: 18px;
+    margin-top: 20px;
   }
 
   .teammedia
@@ -1091,6 +1095,7 @@ body {
       width: 35px;
       background-color: #fcc61b;
       margin-bottom: 15px;
+      border-radius: 5px;
   }
   .teammedia:hover
   {
