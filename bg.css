@@ -1,4 +1,4 @@
-html
+ html
 {
     scroll-behavior: smooth;
 }
@@ -1093,7 +1093,8 @@ body {
   {
       height: 35px;
       width: 35px;
-      background-color: #fcc61b;
+      /* background-color: #fcc61b; */
+      /* color: #fcc61b; */
       margin-bottom: 15px;
       border-radius: 5px;
   }
@@ -1245,4 +1246,94 @@ a.footl:hover
         height: 150px;
         width: 150px;
     }   
+}
+.footer{
+    display: flex;
+    /* height: 100vh; */
+    flex-wrap: wrap;
+}
+.col{
+    flex: 1;
+}
+.longCol{
+    flex: 2;
+}
+.footimg1
+{
+    height: 200px;
+    width: 200px;
+    margin-top: -40px;
+}
+.important-links{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: left; */
+    /* justify-content: center; */
+    font-family: 'Gilroy-Light';
+    font-size: 25px;
+    line-height: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.support
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: left; */
+    font-family: 'Gilroy-Light';
+    font-size: 25px;
+    line-height: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.cus
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: left; */
+    font-family: 'Gilroy-Light';
+    font-size: 25px;
+    line-height: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.subscribe1
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: left; */
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 25px;
+    line-height: 20px;
+    text-align: right;
+    padding: 20px;
+}
+.footmed1
+{
+    height: 20px;
+    width: 20px;
+}
+@media screen and (max-width:500px)
+{
+    .subscribe1
+    {
+        text-align: center;
+    }
+}
+@media screen and (max-width:380px)
+{
+    .subscribe1
+    {
+        text-align: left;
+    }
+    .footimg1
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
