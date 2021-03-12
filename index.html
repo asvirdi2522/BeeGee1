@@ -31,6 +31,12 @@
     display: none;
   }
 }
+.swiper-pagination-bullet
+{
+  background-color: white;
+  height: 10px;
+  width: 10px;
+}
     </style>
 </head>
 <body>
@@ -59,7 +65,7 @@
        </script>
        <div class="studio">
            <!--<p class="sttxt">BeeGee<span><img class="stimg" src="bgfooter.png"></span>Studios</p>-->
-           <img src="bg9.png" style="display: block;margin-left: auto;margin-right: auto;height: 120px;">
+           <img src="bg9.png" class="newlogo">
             
            <p class="sttxt1">Adorning Endeavours</p>
        </div>
@@ -97,7 +103,7 @@
           loop: true,
   autoplay: {
   delay: 2500,
-  disableOnInteraction: false,
+  disableOnInteraction: true,
   },
           mousewheel: true,
           keyboard: true,
